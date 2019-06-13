@@ -11,7 +11,7 @@ namespace HelloWebApi
     {
         public string Get() {
             Console.WriteLine("Conflict check");
-            return "hello";
+            return "hello yo";
         }
     }
 }
