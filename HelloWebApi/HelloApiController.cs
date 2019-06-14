@@ -10,7 +10,7 @@ namespace HelloWebApi
     public class HelloApiController : ApiController
     {
         public string Get() {
-            Console.WriteLine("Conflict");
+            Console.WriteLine("Conflict it is");
             return "hello";
 
         }
