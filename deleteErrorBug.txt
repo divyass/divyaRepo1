@@ -1,0 +1,61 @@
+"EventInfo_Time": 2020-09-23T17:22:41.454Z,
+"EventInfo_Name": delete_connector,
+"EventInfo_BaseType": custom,
+"EventInfo_Source": Ast_Default_Source,
+"PipelineInfo_AccountId": e1f1b0378d124fe7bbaf1d743b65ee30,
+"EventInfo_SdkVersion": AST-Server-C#-1.1.244.0,
+"ActivityDateTime": 2020-09-23T17:22:40.4989725Z,
+"ServerHostName": MN2PR04MB6446,
+"Forest": namprd04.prod.outlook.com,
+"Datacenter": mn2,
+"Region": nam,
+"Result": Ignore,
+"RequestId": f3fa1d03-f0f9-4ca5-b32e-fcce4cf62793,
+"ClientRequestId": ,
+"UserAgent": Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Teams/1.3.00.21759 Chrome/69.0.3497.128 Electron/4.2.12 Safari/537.36,
+"ProcessingStartTime": 2020-09-23T17:22:40.4989725Z,
+"MailboxType": group,
+"Action": DeleteAsync,
+"Controller": Manage,
+"ConnectorType": RSS,
+"SessionId": qbb1ttm1a2pfgmk0qgewlhei,
+"TenantId": 374f8930-e150-4031-bb35-483215fe5900,
+"ExternalDirectoryObjectId": ,
+"ConnectorId": AAMkAGFiNzFjMmJmLWNiY2EtNDBjZC04MmI3LWVmYzNkMjIyZjdjZgBGAAAAAADeyy24VjwXR5BDGd9nkJ9KBwDHOGgN9s1hTZkeEuBiR6xiAAAAAAFMAADHOGgN9s1hTZkeEuBiR6xiAAB31CjuAAA=,
+"FrontEndServer": MN2PR01CA0056.PROD.EXCHANGELABS.COM,
+"HttpStatus": InternalServerError,
+"ProcessingEndTime": 2020-09-23T17:22:41.4527827Z,
+"TotalOperationLatency": 955,
+"GenericNonPiiInfoBlob": GetConnectorConfiguration:101;QueryParameterCulture:en-us;connectorsEnabled:True;RestCallNonPiiInfo:(Method=Get|RequestId=b0b97653-ba27-46df-9ec9-873bb321e8b9|Server=BY5PR04MB7044|StatusCode=200|TokenType=Hpa);ContextTeamID:19:731bc6e07dc6486c92367dbd18e3ae18@thread.skype;ServiceFederationTeamId:19:266c9dcb37144c9fa1116edd8c434af7@thread.skype;ControllerActionLatency:948;MS-CV:Ax368/nwpUyzLvzOTPYnkw.1.1.0 Ax368/nwpUyzLvzOTPYnkw.1.1.0;PreActionLatency:4;iFrame:true true;TeamsThread:19:266c9dcb37144c9fa1116edd8c434af7@thread.skype;,
+"PipelineInfo_IngestionTime": 2020-09-23T17:22:56.6130000Z,
+"PipelineInfo_ClientIp": 52.96.63.000,
+"PipelineInfo_ClientCountry": US,
+"ChannelId": 19:731bc6e07dc6486c92367dbd18e3ae18@thread.skype,
+"GenericNonPiiErrorBlob": dba153d42ff042dab6cbddaf51ac282f:Microsoft.Griffin.Connectors.Store.SkypeSpaces.Api.SkypeSpacesEndpointNotFoundException: Microsoft Teams endpoint returned HTTP error 404 with ContextId tcid=4412090076219372564,server=BY1PEPF000009D7,cv=GI74pUCiTEiVpl5jXf4Gow.3.0,MS-CV=GI74pUCiTEiVpl5jXf4Gow.3.0.
+   at Microsoft.Griffin.Connectors.Store.SkypeSpaces.Api.SkypeSpacesApiClient.<GetSkypeApiResponse>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Griffin.Connectors.Store.SkypeSpaces.Api.SkypeSpacesApiClient.<IsCurrentUserAdminAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Griffin.Connectors.Management.Providers.FederationStrategies.SkypeSpacesManagementFederationStrategy.<CheckMemberRole>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Griffin.Connectors.Management.Providers.FederationStrategies.SkypeSpacesManagementFederationStrategy.<IsIntegrationAllowed>d__21.MoveNext();,
+"ErrorType": ManagementUnauthorizedAccessException,
+"ErrorMessage": Microsoft.Griffin.Connectors.Management.ManagementUnauthorizedAccessException: You do not have permission to delete connectors for this team. Please contact Administrator
+   at Microsoft.Griffin.Connectors.Management.Controllers.BaseController.<FailIfDeleteIntegrationNotSupported>d__76.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Griffin.Connectors.Management.Controllers.BaseManageController.<DeleteInternal>d__35.MoveNext(),
+"ErrorSource": BaseController.HandleUnhandledException(),
+"UserExternalDirectoryObjectId": dbcd8f5f-733f-409c-9c84-76ed2566ea30@374f8930-e150-4031-bb35-483215fe5900,
+"DeploymentRing": WW,
+"PipelineInfo_IngestionPath": ,
+"FederatedId": ,
+"ClientType": SkypeSpaces,
+"UserPuid": 10033FFF95BCC516,
